@@ -2,6 +2,11 @@ body{
 	background-color: #272822;
 }
 
+a.footnote{
+	vertical-align: bottom;
+}
+
 #myDIV{
 	display: none;
 }
+
