@@ -19,6 +19,13 @@ body{
 	height: 400px;
 }
 
+.skillset{
+	text-indent: 50px;
+	border-style: hidden;
+	padding: 100px 0 0 100px;
+	height: 700px;
+}
+
 .footnote{
 	vertical-align: bottom;
 }
@@ -66,7 +73,6 @@ body{
 
 .skills {
     text-align: center; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
     line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
     color: black; /* White text color */
     background-color: #808080;
