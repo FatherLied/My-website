@@ -5,11 +5,18 @@ body{
 	color: #c0c0c0;
 }
 
-div.header{
+.header{
 	text-indent: 50px;
 	border-style: hidden;
-	padding: 20px;
-	height: 500px;
+	padding: 100px 0 0 100px;
+	height: 300px;
+}
+
+.common{
+	text-indent: 50px;
+	border-style: hidden;
+	padding: 50px 0 0 100px;
+	height: 400px;
 }
 
 .footnote{
