@@ -3,40 +3,52 @@
 
 <head>
 	<meta charset = "UTF-8">
+	<meta name = "viewport" content="width-device-width, initial-scale=1">
 	<title>Father's Webpage</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-<div>
-	
+<div class="header">
+	<img src="Profile.png" style="height:256px;width:256px;">
+
 </div>
 
 <div>
-	<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+	<center>
+		<button class="button" onclick="myFunction()">Not Safe For Work</button>
+		<p id = "warning"><b>You have been warned.</b></p>
 
-	<button onclick="myFunction()">Try it</button>
-
-		<div id="myDIV">
-		This is my DIV element.
+		<div id="nsfw">
+			<br>
+			
+			<h3>Videos:<br></h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/1609rCmfVLc" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/MYJRNCEJz2E" frameborder="0" allowfullscreen></iframe>
 		</div>
+	</center>
 
-	<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
 
 	<script>
 	function myFunction() {
-	    var x = document.getElementById('myDIV');
+	    var x = document.getElementById('nsfw');
+	    var y = document.getElementById('warning');
 	    if (x.style.display === 'none') {
 	        x.style.display = 'block';
+	        y.style.display = 'none';
 	    } else {
 	        x.style.display = 'none';
+	        y.style.display = 'block';
 	    }
 	}
 	</script>
 </div>
 
 <div>
+	<br>
+	<br>
+
 	<a href="#" class="footnote">
 		<center>
 			<title>Tiny Skellington</title>
